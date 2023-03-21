@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+}
+
+.content{
+    width: 450px;
+    height: 350px;
+    background-color: rgb(92, 92, 92);
+    align-items: center;
+    margin-left: 255px;
+    margin-top: 5%;
+    padding:5% 5% 5%;
+    color: black;
+}
+.content h1{
+    text-align: center;
+}
+input {
+    width: 300px;
+    height: 30px;
+    background-color: rgb(254, 255, 255);
+    text-align: center;
+    color: black;
+    font-size: 2em;
+}
+#buscar{
+    width: 60px;
+    height: 35px;
+    margin-left: 18px;
+    position: absolute;
+    background-color: rgba(107, 158, 224, 0.075);
+}
+.titulo{
+    /* margin-left: 2%; */
+    position: absolute;
+    margin-top: 2%;
+}
+#titulo{
+    margin-top:2%;
+    position: absolute;
+    padding-left: 7%;
+}
+.seller_id{
+    margin-top: 2%;
+
+    position: absolute;
+}
+#seller_id{
+    margin-top: 2%;
+
+    position: absolute;
+    padding-left: 9%;
+}
+.price{
+    margin-top: 2%;
+
+    position: absolute;
+}
+#price{
+    margin-top: 2%;
+
+    position: absolute;
+    padding-left: 5%;
+}
+.anuncio{
+    margin-top: 2%;
+
+    position: absolute;
+}
+#anuncio{
+    margin-top: 2%;
+
+    position: absolute;
+    padding-left: 12%;
+}
+.estoque{
+    margin-top: 2%;
+
+    position: absolute;
+}
+#estoque{
+    margin-top: 2%;
+
+    position: absolute;
+    padding-left: 10%;
+}
+.fabricante{
+    margin-top: 2%;
+
+    position: absolute;
+}
+#fabricante{
+    margin-top: 2%;
+
+    position: absolute;
+    padding-left: 8%;
+}
+.txml{
+    margin-top: 2%;
+
+    position: absolute;
+}
+#txml{
+    margin-top: 2%;
+
+    position: absolute;
+    padding-left: 8%;
+}
+
+.foto{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: -15%;
+    width: 10%;
+    height: 15%;
+}
