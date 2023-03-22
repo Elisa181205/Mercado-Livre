@@ -13,7 +13,7 @@ function myfunction() {
     "Content-Type": "application/json"
   };
 
-  fetch(url, { method: "POST", headers })
+  fetch(url, { method: "GET", headers })
     .then(response => response.json())
     .then(response => {
       titulo.textContent = response.title //Pega o título do anúncio
