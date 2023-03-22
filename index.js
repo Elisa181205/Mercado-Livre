@@ -8,13 +8,12 @@ function myfunction() {
   const fabricante = document.getElementById("fabricante")
   const frete = document.getElementById("frete")
   const txml = document.getElementById("txml")
-  const b = "Abacate"
   const url = `https://api.mercadolibre.com/items/${mlb}`;
   const headers = {
     "Content-Type": "application/json"
   };
 
-  fetch(url, { method: "GET", headers })
+  fetch(url, { method: "POST", headers })
     .then(response => response.json())
     .then(response => {
       titulo.textContent = response.title //Pega o título do anúncio
